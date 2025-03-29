@@ -7,12 +7,13 @@
 #include <stdio.h>
 #include <math.h>
 #include <memory.h>
+#include <string.h>
 
 #include "nanovg.h"
-//#define FONTSTASH_IMPLEMENTATION
+#define FONTSTASH_IMPLEMENTATION
 #include "fontstash.h"
-#include "stb_truetype.h"  // for textAsPaths
-//#define STB_IMAGE_IMPLEMENTATION
+// #include "stb_truetype.h"  // for textAsPaths
+#define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
 #ifdef _MSC_VER

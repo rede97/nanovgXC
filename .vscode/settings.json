@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "nanovg_gl_utils.h": "c",
+        "fontstash.h": "c",
+        "nanovg.h": "c",
+        "stb_truetype.h": "c",
+        "stb_image.h": "c",
+        "nanovg_gl.h": "c"
+    }
+}
