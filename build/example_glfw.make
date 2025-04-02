@@ -154,7 +154,7 @@ endif
 OBJECTS := \
 	$(OBJDIR)/nanovg.o \
 	$(OBJDIR)/glad.o \
-	$(OBJDIR)/example_glfw.o \
+	$(OBJDIR)/example_gl2.o \
 	$(OBJDIR)/demo.o \
 	$(OBJDIR)/perf.o \
 
@@ -223,7 +223,7 @@ $(OBJDIR)/nanovg.o: ../src/nanovg.c
 $(OBJDIR)/glad.o: ../glad/glad.c
 	@echo $(notdir $<)
 	$(SILENT) $(CC) $(CFLAGS) -o "$@" -c "$<"
-$(OBJDIR)/example_glfw.o: ../example/example_glfw.c
+$(OBJDIR)/example_gl2.o: ../example/example_gl2.c
 	@echo $(notdir $<)
 	$(SILENT) $(CC) $(CFLAGS) -o "$@" -c "$<"
 $(OBJDIR)/demo.o: ../example/demo.c

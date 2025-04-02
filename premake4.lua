@@ -9,7 +9,7 @@ solution "nanovg"
 	project "example_glfw"
 		kind "ConsoleApp"
 		language "C"
-		files { "src/nanovg.c", "glad/glad.c", "example/example_glfw.c", "example/demo.c", "example/perf.c" }
+		files { "src/nanovg.c", "glad/glad.c", "example/example_gl2.c", "example/demo.c", "example/perf.c" }
 		includedirs { "src", "example", "example/stb", "glad" }
 		targetdir("build")
         defines { "NVGSWU_GL3" }

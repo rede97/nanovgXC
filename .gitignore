@@ -36,3 +36,6 @@ android/
 ## Misc
 Makefile.local
 .gitpublic
+
+
+build/
