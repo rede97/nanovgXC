@@ -34,12 +34,12 @@ def skia_surface(window):
 
 def draw(canvas):
     canvas.save()
-    canvas.drawCircle(100, 100, 40, skia.Paint(Color=skia.Color(240, 140, 50), AntiAlias=True))
+    canvas.drawCircle(100, 100, 140, skia.Paint(Color=skia.Color(240, 140, 50), AntiAlias=True))
     paint = skia.Paint(AntiAlias=True, StrokeWidth=3)
     path = skia.Path()
     path.moveTo(200, 200)
     path.lineTo(300, 100)
-    # path.lineTo(400, 100)
+    # path.lineTo(400, 530)
     path.lineTo(500, 400)
     path.close()
     path.addCircle(200,200,100)
